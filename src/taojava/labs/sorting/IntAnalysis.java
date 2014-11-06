@@ -63,3 +63,10 @@ int sort
 Decreasing
 [0, 6695, 558]
  */
+
+// We notice a similar pattern as in the generic method, as increasing has the fastest average time,
+// followed by mostly sorted, then random, and finally decreasing. This pattern holds true for every
+// different array size. In addition, we notice that the average time for the non-generic
+// sorter is faster than for the generic sorters, though there seems to be more variation involved in
+// the results. There is a significant decrease in speed for the non-generic version, on average,
+// for every size array.
