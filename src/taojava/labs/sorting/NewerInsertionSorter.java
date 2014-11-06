@@ -7,6 +7,7 @@ import java.util.Comparator;
 * Sort using insertion sort.
 *
 * @author Samuel A. Rebelsky
+* @author Harry Baker, Hattie Zucker, China Mauck
 */
 public class NewerInsertionSorter<T>
     extends SorterBridge<T>
